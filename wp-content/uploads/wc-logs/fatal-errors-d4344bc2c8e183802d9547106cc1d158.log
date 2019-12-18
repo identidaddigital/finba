@@ -1,0 +1,247 @@
+2018-01-29T01:15:36+00:00 CRITICAL Uncaught Error: Call to a member function get_posted_data() on null in /home/dp05e55yj2gp/public_html/wp-content/plugins/api-sms/api-sms.php:17
+Stack trace:
+#0 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(286): wpcf7_to_web_service('')
+#1 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/dp05e55yj2gp/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/dp05e55yj2gp/public_html/wp-includes/general-template.php(2630): do_action('wp_footer')
+#4 /home/dp05e55yj2gp/public_html/wp-content/themes/basel/footer.php(46): wp_footer()
+#5 /home/dp05e55yj2gp/public_html/wp-includes/template.php(688): require_once('/home/dp05e55yj...')
+#6 /home/dp05e55yj2gp/public_html/wp-includes/template.php(647): load_template('/home/dp05e55yj...', true)
+#7 /home/dp05e55yj2gp/public_html/wp-includes/general-template.php(76): locate_template(Array, true)
+#8 /home/dp05e55yj2gp/public_html/wp-content/themes/basel/page.php(50): get_footer()
+#9 
+
+2018-05-18T22:41:51+00:00 CRITICAL Uncaught Error: Cannot use object of type WPCF7_ContactForm as array in /home/dp05e55yj2gp/public_html/wp-content/plugins/api-rol/api-rol.php:16
+Stack trace:
+#0 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(288): wpcf7_call_rol(Object(WPCF7_ContactForm))
+#1 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/dp05e55yj2gp/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#3 /home/dp05e55yj2gp/public_html/wp-content/plugins/contact-form-7/includes/submission.php(333): do_action_ref_array('wpcf7_before_se...', Array)
+#4 /home/dp05e55yj2gp/public_html/wp-content/plugins/contact-form-7/includes/submission.php(189): WPCF7_Submission->before_send_mail()
+#5 /home/dp05e55yj2gp/public_html/wp-content/plugins/contact-form-7/includes/submission.php(33): WPCF7_Submission->submit()
+#6 /home/dp05e55yj2gp/public_html/wp-content/plugins/contact-form-7/includes/contact-form.php(716): WPCF7_Submission::get_instance(Object(WPCF7_ContactForm
+
+2018-05-18T22:42:20+00:00 CRITICAL Uncaught Error: Cannot use object of type WPCF7_ContactForm as array in /home/dp05e55yj2gp/public_html/wp-content/plugins/api-rol/api-rol.php:16
+Stack trace:
+#0 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(288): wpcf7_call_rol(Object(WPCF7_ContactForm))
+#1 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/dp05e55yj2gp/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#3 /home/dp05e55yj2gp/public_html/wp-content/plugins/contact-form-7/includes/submission.php(333): do_action_ref_array('wpcf7_before_se...', Array)
+#4 /home/dp05e55yj2gp/public_html/wp-content/plugins/contact-form-7/includes/submission.php(189): WPCF7_Submission->before_send_mail()
+#5 /home/dp05e55yj2gp/public_html/wp-content/plugins/contact-form-7/includes/submission.php(33): WPCF7_Submission->submit()
+#6 /home/dp05e55yj2gp/public_html/wp-content/plugins/contact-form-7/includes/contact-form.php(716): WPCF7_Submission::get_instance(Object(WPCF7_ContactForm
+
+2018-05-18T22:43:01+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpcf7_call_rol(), 1 passed in /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php on line 288 and exactly 2 expected in /home/dp05e55yj2gp/public_html/wp-content/plugins/api-rol/api-rol.php:15
+Stack trace:
+#0 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(288): wpcf7_call_rol(Object(WPCF7_ContactForm))
+#1 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/dp05e55yj2gp/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#3 /home/dp05e55yj2gp/public_html/wp-content/plugins/contact-form-7/includes/submission.php(333): do_action_ref_array('wpcf7_before_se...', Array)
+#4 /home/dp05e55yj2gp/public_html/wp-content/plugins/contact-form-7/includes/submission.php(189): WPCF7_Submission->before_send_mail()
+#5 /home/dp05e55yj2gp/public_html/wp-content/plugins/contact-form-7/includes/submission.php(33): WPCF7_Submission->submit()
+#6 /home/dp05e55yj2gp/public_html/wp-co
+
+2018-08-31T21:04:28+00:00 CRITICAL Uncaught Error: Class 'WP_Session' not found in /home/dp05e55yj2gp/public_html/wp-content/themes/basel-child/functions.php:7
+Stack trace:
+#0 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(286): register_my_session('')
+#1 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/dp05e55yj2gp/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/dp05e55yj2gp/public_html/wp-settings.php(450): do_action('init')
+#4 /home/dp05e55yj2gp/public_html/wp-config.php(101): require_once('/home/dp05e55yj...')
+#5 /home/dp05e55yj2gp/public_html/wp-load.php(37): require_once('/home/dp05e55yj...')
+#6 /home/dp05e55yj2gp/public_html/wp-blog-header.php(13): require_once('/home/dp05e55yj...')
+#7 /home/dp05e55yj2gp/public_html/index.php(17): require('/home/dp05e55yj...')
+#8 {main}
+  thrown
+
+2018-08-31T21:04:29+00:00 CRITICAL Uncaught Error: Class 'WP_Session' not found in /home/dp05e55yj2gp/public_html/wp-content/themes/basel-child/functions.php:7
+Stack trace:
+#0 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(286): register_my_session('')
+#1 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/dp05e55yj2gp/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/dp05e55yj2gp/public_html/wp-settings.php(450): do_action('init')
+#4 /home/dp05e55yj2gp/public_html/wp-config.php(101): require_once('/home/dp05e55yj...')
+#5 /home/dp05e55yj2gp/public_html/wp-load.php(37): require_once('/home/dp05e55yj...')
+#6 /home/dp05e55yj2gp/public_html/wp-blog-header.php(13): require_once('/home/dp05e55yj...')
+#7 /home/dp05e55yj2gp/public_html/index.php(17): require('/home/dp05e55yj...')
+#8 {main}
+  thrown
+
+2018-08-31T21:04:33+00:00 CRITICAL Uncaught Error: Class 'WP_Session' not found in /home/dp05e55yj2gp/public_html/wp-content/themes/basel-child/functions.php:7
+Stack trace:
+#0 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(286): register_my_session('')
+#1 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/dp05e55yj2gp/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/dp05e55yj2gp/public_html/wp-settings.php(450): do_action('init')
+#4 /home/dp05e55yj2gp/public_html/wp-config.php(101): require_once('/home/dp05e55yj...')
+#5 /home/dp05e55yj2gp/public_html/wp-load.php(37): require_once('/home/dp05e55yj...')
+#6 /home/dp05e55yj2gp/public_html/wp-admin/admin-ajax.php(22): require_once('/home/dp05e55yj...')
+#7 {main}
+  thrown
+
+2018-08-31T21:05:06+00:00 CRITICAL Uncaught Error: Class 'WP_Session' not found in /home/dp05e55yj2gp/public_html/wp-content/themes/basel-child/functions.php:7
+Stack trace:
+#0 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(286): register_my_session('')
+#1 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/dp05e55yj2gp/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/dp05e55yj2gp/public_html/wp-settings.php(450): do_action('init')
+#4 /home/dp05e55yj2gp/public_html/wp-config.php(101): require_once('/home/dp05e55yj...')
+#5 /home/dp05e55yj2gp/public_html/wp-load.php(37): require_once('/home/dp05e55yj...')
+#6 /home/dp05e55yj2gp/public_html/wp-blog-header.php(13): require_once('/home/dp05e55yj...')
+#7 /home/dp05e55yj2gp/public_html/index.php(17): require('/home/dp05e55yj...')
+#8 {main}
+  thrown
+
+2018-08-31T21:05:13+00:00 CRITICAL Uncaught Error: Class 'WP_Session' not found in /home/dp05e55yj2gp/public_html/wp-content/themes/basel-child/functions.php:7
+Stack trace:
+#0 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(286): register_my_session('')
+#1 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/dp05e55yj2gp/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/dp05e55yj2gp/public_html/wp-settings.php(450): do_action('init')
+#4 /home/dp05e55yj2gp/public_html/wp-config.php(101): require_once('/home/dp05e55yj...')
+#5 /home/dp05e55yj2gp/public_html/wp-load.php(37): require_once('/home/dp05e55yj...')
+#6 /home/dp05e55yj2gp/public_html/wp-blog-header.php(13): require_once('/home/dp05e55yj...')
+#7 /home/dp05e55yj2gp/public_html/index.php(17): require('/home/dp05e55yj...')
+#8 {main}
+  thrown
+
+2018-08-31T21:05:34+00:00 CRITICAL Uncaught Error: Class 'WP_Session' not found in /home/dp05e55yj2gp/public_html/wp-content/themes/basel-child/functions.php:7
+Stack trace:
+#0 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(286): register_my_session('')
+#1 /home/dp05e55yj2gp/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/dp05e55yj2gp/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/dp05e55yj2gp/public_html/wp-settings.php(450): do_action('init')
+#4 /home/dp05e55yj2gp/public_html/wp-config.php(101): require_once('/home/dp05e55yj...')
+#5 /home/dp05e55yj2gp/public_html/wp-load.php(37): require_once('/home/dp05e55yj...')
+#6 /home/dp05e55yj2gp/public_html/wp-admin/admin-ajax.php(22): require_once('/home/dp05e55yj...')
+#7 {main}
+  thrown
+
+2019-07-05T22:01:15+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:01:18+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:01:21+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:01:23+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:01:25+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:01:29+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:01:32+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:01:34+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:02:30+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:02:34+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:02:49+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:02:54+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:02:56+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:02:57+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:02:59+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:04:28+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:04:32+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:05:11+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:05:15+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:05:28+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:05:44+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:05:52+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:24:21+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:24:25+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:24:28+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:24:30+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:24:35+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:24:49+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:24:57+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:31:38+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:31:42+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:31:44+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:35:25+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:35:28+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T22:35:30+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T23:04:15+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T23:04:18+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T23:04:20+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T23:05:19+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T23:05:24+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T23:05:26+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T23:09:13+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T23:09:17+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T23:09:19+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T23:09:47+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T23:14:46+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T23:14:49+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-05T23:41:16+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 33554440 bytes)
+
+2019-07-05T23:41:19+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 33554440 bytes)
+
+2019-07-06T02:44:16+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 16777224 bytes)
+
+2019-07-06T02:44:20+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 16777224 bytes)
+
+2019-07-06T03:05:12+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 33554440 bytes)
+
+2019-07-10T12:25:38+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-10T12:26:22+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-10T12:28:45+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 34787328 bytes)
+
+2019-07-10T12:29:02+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 34787328 bytes)
+
+2019-07-10T12:29:14+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-10T12:31:18+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-10T12:31:37+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+
+2019-07-19T00:42:38+00:00 CRITICAL Allowed memory size of 1073741824 bytes exhausted (tried to allocate 268435464 bytes)
+
+2019-07-19T00:42:43+00:00 CRITICAL Allowed memory size of 1073741824 bytes exhausted (tried to allocate 268435464 bytes)
+
+2019-07-19T00:42:48+00:00 CRITICAL Allowed memory size of 1073741824 bytes exhausted (tried to allocate 268435464 bytes)
+
+2019-07-19T00:42:52+00:00 CRITICAL Allowed memory size of 1073741824 bytes exhausted (tried to allocate 268435464 bytes)
+
+2019-07-19T02:56:53+00:00 CRITICAL Allowed memory size of 1073741824 bytes exhausted (tried to allocate 268435464 bytes)
+

@@ -1,0 +1,94 @@
+/** --------------------------------------
+* PAYPAL BUTTON
+* ------------------------------------- */
+
+.wcppec-checkout-buttons {
+	margin: 0;
+
+	.product-design-default &,
+	.product-design-compact & {
+		text-align: left;
+	}
+
+	.basel-sticky-btn-container & {
+		margin-left: 10px;
+	}
+}
+
+.wcppec-checkout-buttons__button {
+	padding-top: 0;
+}
+
+/** --------------------------------------
+* PAYPAL BUTTON ON SINGLE PRODUCT
+* ------------------------------------- */
+
+.single-product-page {
+
+	.wcppec-checkout-buttons {
+		margin-bottom: 20px;
+	}
+}
+
+/** --------------------------------------
+* PAYPAL BUTTON ON CART PAGE
+* ------------------------------------- */
+
+.cart-collaterals {
+
+	.cart_totals {
+	
+		.wc-proceed-to-checkout {
+	
+			.wcppec-checkout-buttons__separator {
+				margin-top: 10px;
+				margin-bottom: 15px;
+			}
+	
+			.wcppec-checkout-buttons {
+				margin-top: 15px;
+				
+				> a {
+					display: inline-block;
+					width: auto;
+					margin-top: 5px;
+				}
+			}
+		}
+	}
+}
+
+/** --------------------------------------
+* STRIPE
+* ------------------------------------- */
+
+.woocommerce-checkout #payment,
+#add_payment_method {
+
+	ul {
+	
+		&.payment_methods {
+			
+			li {
+				
+				img {
+					
+					&.stripe-icon {
+						float: none !important;
+					}
+				}
+			}
+		}
+	}
+
+	input#payment_method_stripe {
+		top: 5px;
+	}
+}
+
+#add_payment_method {
+
+	#payment_method_stripe {
+		margin: 0;
+	}
+} 

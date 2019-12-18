@@ -1,0 +1,8 @@
+[29-Jan-2018 00:51:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_uri() in /home/dp05e55yj2gp/public_html/wp-content/themes/basel/functions.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dp05e55yj2gp/public_html/wp-content/themes/basel/functions.php on line 13
+[16-Nov-2019 15:31:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_uri() in /home/dp05e55yj2gp/public_html/wp-content/themes/basel/functions.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dp05e55yj2gp/public_html/wp-content/themes/basel/functions.php on line 13

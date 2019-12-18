@@ -1,0 +1,301 @@
+/*
+ Theme Name:   Basel Child
+ Description:  Basel Child Theme
+ Author:       XTemos
+ Author URI:   http://xtemos.com
+ Template:     basel
+ Version:      1.0.0
+ Text Domain:  basel-child
+*/
+
+
+/* Your customizations starts here */
+.woocommerce-MyAccount-navigation-link--dashboard, .woocommerce-MyAccount-navigation-link--edit-address, .woocommerce-MyAccount-navigation-link--downloads, .woocommerce-MyAccount-navigation-link--orders {display:none;}
+.orders-link, .downloads-link, .edit-address-link {display:none;}
+input[type="date"]:before{
+    color:lightgray;
+    content:attr(placeholder);
+}
+.widgetarea-head {
+    position: absolute;
+    top: 27px;
+    right: 40px;
+}
+.woocommerce-MyAccount-title {
+    display: none;
+}
+.label-loan select {text-align:center; text-align-last:center;}
+.woocommerce-error, .woocommerce-info, div.wpcf7-validation-errors {
+    color: #000000;
+    border-color: #f7eb1a;
+    background-color: #f7eb1a;
+}
+.wpb-js-composer .vc_tta-color-white.vc_tta-style-flat .vc_tta-panel .vc_tta-panel-heading {
+    background-color: transparent!important;
+}
+.wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title {
+    font-size: 12px;
+}
+.wpb-js-composer .vc_tta-color-white.vc_tta-style-flat .vc_tta-panel.vc_active .vc_tta-panel-title>a {
+    color: #4c4c4c;
+    font-weight: 500;
+	font-size:12px;
+}
+.wpb-js-composer .vc_tta-color-white.vc_tta-style-flat .vc_tta-panel .vc_tta-panel-body {
+    background-color: transparent!important;
+}
+.range {
+    margin-bottom: 3em;
+}
+.checkradio input[type=radio]:not(old) + label > span {
+    width: 45px!important;
+    height: 20px!important;
+    border: none!important;
+	cursor: pointer;
+    background: #f2f2f3;
+}
+.checkradio {padding-top:20px;display:inline-block;float:left;position:relative;z-index:1000;}
+.checkradio li {padding: 0;}
+.checkradio li.label {
+	float:none!important;
+	text-align: center;
+    font-size: 15px;
+    color: #000000;
+}
+li.label:before, li:before {
+    content: none!important;
+}
+.checkradio li label i {
+	position: absolute;
+    top: 4px;
+    left: 22px;
+    color: #212324;
+    font-size: 15px;
+    font-weight: normal;
+}
+.checkradio input[type=radio]:not(old):checked + label > i {color:#ffffff;}
+.rangeslider__value-bubble {
+    border: none!important;
+    padding: 10px;
+    top: 100%;
+	bottom:0%;
+    background-color: transparent!important;
+}
+.qis_form {
+    margin: 0 auto;
+}
+.qis__handle {
+    background: url(https://finba.com.ar/wp-content/uploads/handler.png) center center no-repeat!important;
+    border: none!important;
+    width: 20px!important;
+    height: 20px!important;
+	box-shadow: none!important;
+}
+.qis-repayments {
+    text-align: center;
+	font-size: 15px!important;
+}
+span.repayment {
+    background: #f2f2f3;
+    padding: 4px 8px;
+    margin-top: 6px;
+    font-weight: 500;
+	font-size: 13px;
+    display: inline-block;
+    border-radius: 7px;
+}
+.box-solicita {
+    position: relative;
+    float: right;
+    bottom: 100px;
+    width: 100%;
+}
+.box-cuota {
+    position: relative;
+    float: right;
+    top: -50px;
+    width: 125px;
+}
+.icon-left{float:left;}
+.paddr15 {
+	padding-right:15px;
+}
+.main-nav .menu>li>a { 
+   text-transform: none;
+}
+.sticky-header .main-nav {
+    text-align: right;
+}
+/*.right-column .header-links li a {
+    border: 1px solid #272727;
+    padding: 10px;
+    border-radius: 11px;
+}
+.right-column .header-links li a:hover {
+    text-decoration: none;
+    background: #272727;
+    color: #f7eb1a;
+}
+.right-column .header-links li a:after {
+    height: 0px;
+}*/
+h1 {
+    font-weight: bold!important;
+    font-size: 25px!important;
+}
+h2 {
+	font-weight: bold!important;
+    font-size: 20px!important;
+}
+h3 {
+	font-weight: normal!important;
+    font-size: 17px!important;
+}
+h5 {
+	font-weight: bold!important;
+    font-size: 14px!important;
+}
+p.steps {
+	font-weight: 300;
+    font-size: 12px;
+}
+ul.pqxaper {
+}
+ul.pqxaper li {
+	margin-bottom:15px;
+	font-size:13px;
+	font-weight:300;
+    color: #231f20;
+}
+ul.pqxaper li:before {
+	content: url(//finba.com.ar/wp-content/uploads/ico-check.png)!important;
+    opacity: .7;
+    position: absolute;
+    top: 3px!important;
+    left: -25px!important;
+}
+.textwidget a {
+    font-size: 11px;
+    font-weight: 400;
+    color: #231f20;
+}
+.footer-column-1 {
+	padding-top:30px;
+}
+.footer-column-2 {
+	text-align: center;
+}
+.footer-column-2 h4 {
+	margin-bottom:5px;
+}
+.footer-column-2 h5 {
+	font-size: 12px;
+	color: #231f20;
+}
+.footer-column-2 a {
+	font-size: 14px;
+    font-weight: 600;
+	padding:0 15px;
+}
+.footer-column-3 {
+	text-align: right;
+	padding-top:30px;
+}
+.widget-title, .widgettitle {
+    font-size: 12px!important;
+    color: #231f20!important;
+    margin-bottom: 15px!important;
+}
+.min-footer {
+    font-size: 10px;
+    font-weight: 500;
+}
+.fix-column-mobile {
+	display:none;
+}
+
+/* REGISTER */
+input[type=text], input[type=email], input[type=url], input[type=password], input[type=number], input[type=date], input[type=tel], select, textarea {
+    height: 50px;
+    background: #e0e1e2;
+    border-radius: 7px;
+    border: 1px solid #e0e1e2;
+}
+select {
+	background: #e0e1e2 url(https://finba.com.ar/wp-content/uploads/ico-select.png) right center no-repeat;
+}
+.login .button, .lost_reset_password .button, .register .button {
+    border: none;
+    background-color: #f7eb1a;
+    font-weight: bold;
+    height: 55px;
+}
+.basel-registration-page h2 {
+    text-align: center;
+}
+.checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    position: relative!important;
+    margin-left: 0px!important;
+}
+.column-datos {
+	padding-left:3px;
+	padding-right:3px;
+}
+.column-datos p {
+	margin-bottom:7px;
+}
+.button-submit {
+	background-color: #f7eb1a!important;
+    border: 1px solid #f7eb1a!important;
+    font-weight: bold;
+    height: 55px;
+    width: 100%;
+}
+.button-back {
+	background: transparent;
+    border: none;
+    text-decoration: underline;
+    width: 100%;
+    font-size: 12px;
+}
+.input-pin {
+	width: 30%!important;
+    margin-left: 35%;
+    text-align: center;
+}
+.label-loan {
+	background: #efefef;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media (max-width: 991px) {
+.fix-column-mobile {
+    display: block;
+	padding-top:25px;
+}
+.footer-column-1 {
+	text-align: center;
+}
+.footer-column-2 {
+	text-align: center;
+}
+.footer-column-3 {
+	display:none;
+}
+.box-cuota {
+    top: 15px;
+    width: 100%;
+}
+.box-solicita {
+    float: none;
+    bottom: -10px;
+}
+.checkradio {
+    padding-top: 10px;
+    padding-left: 15%;
+}
+}

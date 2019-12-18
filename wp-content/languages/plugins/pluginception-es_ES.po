@@ -1,0 +1,101 @@
+# Translation of Plugins - Pluginception - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Pluginception - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-19 10:20:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Pluginception - Development (trunk)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://ottopress.com"
+msgstr "http://ottopress.com"
+
+#. Author of the plugin/theme
+msgid "Otto"
+msgstr "Otto"
+
+#. Plugin URI of the plugin/theme
+msgid "http://ottopress.com/wordpress-plugins/pluginception"
+msgstr "http://ottopress.com/wordpress-plugins/pluginception"
+
+#. Plugin Name of the plugin/theme
+msgid "Pluginception"
+msgstr "Pluginception"
+
+#: pluginception.php:68
+msgid "Author (optional)"
+msgstr "Autor (opcional)"
+
+#: pluginception.php:67
+msgid "Version (optional)"
+msgstr "Versión (opcional)"
+
+#: pluginception.php:97
+msgid "Plugin Name is required"
+msgstr "El nombre del plugin es obligatorio"
+
+#: pluginception.php:71
+msgid "License URI (optional)"
+msgstr "URI de la licencia (opcional)"
+
+#: pluginception.php:70
+msgid "License (optional)"
+msgstr "Licencia (opcional)"
+
+#: pluginception.php:69
+msgid "Author URI (optional)"
+msgstr "URl del Autor (opcional)"
+
+#. Description of the plugin/theme
+msgid "A plugin to create other plugins. Pluginception."
+msgstr "Un plugin para crear otros plugins. Pluginception."
+
+#: pluginception.php:166
+msgid "Unable to activate the new plugin."
+msgstr "No ha sido posible activar el nuevo plugin."
+
+#: pluginception.php:159
+msgid "Unable to create the plugin file."
+msgstr "No ha sido posible crear el archivo del plugin."
+
+#: pluginception.php:135
+msgid "Unable to create the plugin directory."
+msgstr "No ha sido posible crear el directorio del plugin."
+
+#: pluginception.php:108
+msgid "That plugin appears to already exist. Use a different slug or name."
+msgstr "Parece que este plugin ya existe. Usa un slug o un nombre diferente."
+
+#: pluginception.php:81
+msgid "Create a blank plugin and activate it!"
+msgstr "¡Crea un plugin en blanco y actívalo!"
+
+#. translators: inline link to plugin editor
+#: pluginception.php:179
+msgid "The new plugin has been created and activated. You can %1$sgo to the editor%2$s if your browser does not redirect you."
+msgstr "El nuevo plugin ha sido creado y activado. Puedes %1$sir al editor%2$s si tu navegador no te redirecciona."
+
+#: pluginception.php:66
+msgid "Description (optional)"
+msgstr "Descripción (opcional)"
+
+#: pluginception.php:63
+msgid "Plugin Name"
+msgstr "Nombre del plugin"
+
+#: pluginception.php:41 pluginception.php:42 pluginception.php:56
+msgid "Create a New Plugin"
+msgstr "Crear un nuevo plugin"
+
+#: pluginception.php:65
+msgid "Plugin URI (optional)"
+msgstr "URL del plugin (opcional)"
+
+#: pluginception.php:64
+msgid "Plugin Slug (optional)"
+msgstr "Slug del plugin (opcional)"

@@ -1,0 +1,8 @@
+[29-Jan-2018 00:49:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/dp05e55yj2gp/public_html/wp-content/plugins/api-sms/api-sms.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dp05e55yj2gp/public_html/wp-content/plugins/api-sms/api-sms.php on line 13
+[29-Jan-2018 00:51:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/dp05e55yj2gp/public_html/wp-content/plugins/api-sms/api-sms.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dp05e55yj2gp/public_html/wp-content/plugins/api-sms/api-sms.php on line 13
