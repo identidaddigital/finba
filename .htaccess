@@ -2,6 +2,7 @@
 #RewriteCond %{HTTP_HOST} finba.com.ar$ [NC]
 #RewriteRule ^ https://www.finba.com.ar%{REQUEST_URI}  [R=301,L,NE]   
 
+RewriteEngine on
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
