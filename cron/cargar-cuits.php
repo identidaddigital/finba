@@ -44,7 +44,7 @@ if ($conn->connect_error) {
 
 	$conn->close();
 
-	echo "<script>document.location = 'https://www.finba.com.ar/wp-admin/';</script>";
+	echo "<script>document.location = '//www.finba.com.ar/wp-admin/';</script>";
 
 } catch( \Exception $e ) {
 	echo $e->getMessage();
