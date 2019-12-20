@@ -1,15 +1,7 @@
-#RewriteCond %{HTTPS} off
-#RewriteCond %{HTTP_HOST} finba.com.ar$ [NC]
-#RewriteRule ^ https://www.finba.com.ar%{REQUEST_URI}  [R=301,L,NE]   
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} finba.com.ar$ [NC]
+RewriteRule ^ https://finba.com.ar%{REQUEST_URI}  [R=301,L,NE]   
 
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
-</IfModule>
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
